@@ -9,7 +9,7 @@ import utils.FileLogger;
 import models.User;
 
 public class Main {
-	  public static void main(String[] args)
+	 public static void main(String[] args)
 	  {
 	    FileLogger logger = FileLogger.getLogger();
 	    logger.log("Creating user list");
@@ -22,4 +22,4 @@ public class Main {
 
 	    logger.log("Finished - shutting down");
 	  }
-}
+} 
